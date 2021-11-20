@@ -1,7 +1,5 @@
 package primitives;
 
-import java.sql.SQLOutput;
-
 public class remainderPractice1 {
     public static void main(String[] args) {
         //modulus--> % remainder
@@ -10,7 +8,7 @@ public class remainderPractice1 {
         int remainder1 = num1%num2;
         System.out.println("Remainder 1 is equal "+ remainder1);
         //if you divide any number to 10 the remainder will be last digit
-        int num3 = 890;
+        int num3 = 899;
         int storage1 = num3%10;
         System.out.println(storage1);
         num3 = num3/10;
@@ -22,7 +20,5 @@ public class remainderPractice1 {
         int sum = storage1 +storage2 +storage3;
         System.out.println(sum);
     }
-
-
 
 }
