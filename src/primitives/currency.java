@@ -2,25 +2,57 @@ package primitives;
 
 public class currency {
     public static void main(String[] args) {
-        double som=789;
-        double dollarRate = 84.78;
-        double convert = som/dollarRate;
-        System.out.println(convert);
+//        double som=789;
+//        double dollarRate = 84.78;
+//        double convert = som/dollarRate;
+//        System.out.println(convert);
+//
+//
+//        double inches = 2000;
+//        double meters = inches * 0.0254;
+//        System.out.println(inches +" is "+ meters + " meters");
+//
+//
+//        int minutes = 3456789;
+//
+//        int days = minutes / 60 / 24;
+//        System.out.println(days);
+//        int years = days / 365;
+//        System.out.println(years);
+//        int leftDays = days % 365;
+//        System.out.println(leftDays);
+//
+//        System.out.println( minutes+  " minutes is " + years +" years and " + leftDays +" days");
+//
+//        double  fahrenheit = 212.0;
+//
+//        double checkF = (fahrenheit - 32) * 5/9 ;
+//        System.out.println( fahrenheit + " degree Fahrenheit is " +checkF + " in Celsius");
 
-        int inches = 2000;
-        double inchToMeter =inches*0.0254;
-        System.out.println(inchToMeter);
+        int fiveDigitNumber = 78956;
+        int digit5 = fiveDigitNumber %10;
+        System.out.println(digit5);
+        fiveDigitNumber/=10;
+        System.out.println(fiveDigitNumber);
 
+        int digit4 = fiveDigitNumber %10;
+        System.out.println(digit4);
+        fiveDigitNumber/=10;
+        System.out.println(fiveDigitNumber);
 
-        int minutes = 3456789;
-        int numberOfHours = minutes / 60;
-        int numberOfDays = numberOfHours/24;
-        int numberOfYears = numberOfDays/365;
-        int leftDays = numberOfDays%numberOfYears;
+        int digit3 = fiveDigitNumber %10;
+        System.out.println(digit3);
+        fiveDigitNumber/=10;
+        System.out.println(fiveDigitNumber);
 
-        //double numberOfYears = minutes
-        System.out.println(numberOfYears);
-        System.out.println(leftDays);
+        int digit2 = fiveDigitNumber %10;
+        System.out.println(digit2);
+        fiveDigitNumber/=10;
+        System.out.println(fiveDigitNumber);
+
+        int digit1= fiveDigitNumber %10;
+        System.out.println(digit1);
+
 
     }
 }
