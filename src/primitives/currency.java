@@ -29,29 +29,41 @@ public class currency {
 //        double checkF = (fahrenheit - 32) * 5/9 ;
 //        System.out.println( fahrenheit + " degree Fahrenheit is " +checkF + " in Celsius");
 
-        int fiveDigitNumber = 78956;
-        int digit5 = fiveDigitNumber %10;
-        System.out.println(digit5);
-        fiveDigitNumber/=10;
-        System.out.println(fiveDigitNumber);
+//        int fiveDigitNumber = 78956;
+//        int digit5 = fiveDigitNumber %10;
+//        System.out.println(digit5);
+//        fiveDigitNumber/=10;
+//        System.out.println(fiveDigitNumber);
+//
+//        int digit4 = fiveDigitNumber %10;
+//        System.out.println(digit4);
+//        fiveDigitNumber/=10;
+//        System.out.println(fiveDigitNumber);
+//
+//        int digit3 = fiveDigitNumber %10;
+//        System.out.println(digit3);
+//        fiveDigitNumber/=10;
+//        System.out.println(fiveDigitNumber);
+//
+//        int digit2 = fiveDigitNumber %10;
+//        System.out.println(digit2);
+//        fiveDigitNumber/=10;
+//        System.out.println(fiveDigitNumber);
+//        int digit1= fiveDigitNumber %10;
+      //  System.out.println(digit1);
+        System.out.println("+--------------------------------------------------------------------+");
+        System.out.println("|                                                             ####   |");
+        System.out.println("|                                                             ####   |");
+        System.out.println("|                                                             ####   |");
+        System.out.println("|                                                                    |");
+        System.out.println("|                                                                    |");
+        System.out.println("|                                                                    |");
+        System.out.println("|                                  Aizhan Abdraiymova                |");
+        System.out.println("|                                  1041 North Formosa Avenue         |");
+        System.out.println("|                                  West Hollywood, CA 90046 USA      |");
+        System.out.println("|                                                                    |");
+        System.out.println("+--------------------------------------------------------------------+");
 
-        int digit4 = fiveDigitNumber %10;
-        System.out.println(digit4);
-        fiveDigitNumber/=10;
-        System.out.println(fiveDigitNumber);
-
-        int digit3 = fiveDigitNumber %10;
-        System.out.println(digit3);
-        fiveDigitNumber/=10;
-        System.out.println(fiveDigitNumber);
-
-        int digit2 = fiveDigitNumber %10;
-        System.out.println(digit2);
-        fiveDigitNumber/=10;
-        System.out.println(fiveDigitNumber);
-
-        int digit1= fiveDigitNumber %10;
-        System.out.println(digit1);
 
 
     }

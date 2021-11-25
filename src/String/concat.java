@@ -10,5 +10,11 @@ public class concat {
         System.out.println(test);
 
 
+        String str = "just do it ";
+        System.out.println(str);
+        String str1 =new String(" just do it whatever it takes") ;
+        System.out.println(str1);
+        System.out.println(str + str1);
+
     }
 }
