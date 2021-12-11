@@ -15,6 +15,7 @@ public class MethodsTask {
         System.out.println(sentence.length());
 
 
+
         System.out.println(sentence.indexOf("c", sentence.indexOf("c")
         +1));
 
